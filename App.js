@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View><Text>Another text</Text></View>
-      <Text style={{margin: 16, borderWidth: 2, borderColor: 'red', padding: 16}}>Hello world!</Text>
+      <Text style={styles.dummyText}>Hello world!</Text>
       <Button title='press me'></Button>
       <StatusBar style="auto" />
     </View>
@@ -23,6 +23,6 @@ const styles = StyleSheet.create({
     margin: 10,
     padding: 10,
     borderWidth: 2,
-    borderColor: 'red',
+    borderColor: 'blue',
   }
 });
