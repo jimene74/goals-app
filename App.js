@@ -32,7 +32,7 @@ export default function App() {
           data={courseGoals}
           alwaysBounceVertical={false}
           renderItem={(itemData) => {
-            return <GoalItem />;
+            return <GoalItem text={itemData.item.text}/>;
           }}
           keyExtractor={(item, index) => {
             return item.id;
