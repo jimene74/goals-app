@@ -24,12 +24,12 @@ function GoalInput(props) {
     <Modal visible={props.visible} animationType="slide">
       <View style={styles.inputContainer}>
         <Image
-          source={require("../assets/images/rabbitholegg.png")}
+          source={require("../assets/images/atlassian.png")}
           style={styles.image}
         ></Image>
         <TextInput
           style={styles.textInput}
-          placeholder="Your rabbithole goal!"
+          placeholder="Your course goal!"
           onChangeText={goalInputHandler}
           value={enteredGoalText}
         ></TextInput>
